@@ -1,12 +1,18 @@
 {
     "name": "arachnid/shield",
-    "version": "0.1.0",
+    "license": "MIT",
+    "homepage": "https://projectarachnid.com/",
     "description": "A client for scanning media for CSAM using the Arachnid Shield API.",
+    "keywords": ["arachnid-shield", "projectarachnid"],
     "type": "library",
     "authors": [
         {
             "name": "Aalekh Patel",
             "email": "aalekh@protectchildren.ca"
+        },
+        {
+            "name": "Mark Johnston",
+            "email": "mark@protectchildren.ca"
         }
     ],
     "require": {
