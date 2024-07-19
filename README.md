@@ -45,8 +45,3 @@ if ($scannedMedia->matchesKnownMedia()) {
     echo $scannedMedia->visualMatchDetails;
 }
 ```
-
-### Contacts
-
-@aalekh
-@mark
