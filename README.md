@@ -27,7 +27,6 @@ $shield = new ArachnidShield("username", "password");
 $scannedMedia = $shield->scanMediaFromFile("path/to/image.jpeg");
 if ($scannedMedia->matchesKnownMedia()) {
     echo "Scanned media has matches to known material";
-    echo $scannedMedia->visualMatchDetails;
 }
 ```
 
@@ -42,6 +41,5 @@ $shield = new ArachnidShield("username", "password");
 $scannedMedia = $shield->scanMediaFromUrl("https://example.com/path/to/image.jpeg");
 if ($scannedMedia->matchesKnownMedia()) {
     echo "Scanned media has matches to known material";
-    echo $scannedMedia->visualMatchDetails;
 }
 ```
