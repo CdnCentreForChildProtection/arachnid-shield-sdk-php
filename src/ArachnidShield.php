@@ -70,8 +70,7 @@ class ArachnidShield implements ArachnidShieldV1
     public function __construct(string $username, string $password)
     {
         $this->username = $username;
-//        $this->baseUri = "https://shield.projectarachnid.com/v1/";
-        $this->baseUri = "http://fastapi.public-api-aalekh.staging.c3p/v1/";
+        $this->baseUri = "https://shield.projectarachnid.com/v1/";
 
         $this->authHeader = "Basic " . base64_encode("$username:$password");
 
